@@ -14,3 +14,7 @@
   color: #d847f1;
   font-weight: bold;
 }
+
+.btn-space {
+  margin-right: 20px !important;
+}
