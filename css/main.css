@@ -60,6 +60,14 @@
   margin-top: 30px;
 }
 
+.section-testimonial .carousel-min-height {
+  min-height: 400px;
+}
+
+.section-testimonial img {
+  width: 20% !important;
+}
+
 @media (max-width: 500px) {
   .section-developers,
   .section-podcast {
