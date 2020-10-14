@@ -24,7 +24,7 @@
           <a href="#" class="brand-logo">Schmosting</a>
           <a href="#" data-activates='mobile-nav' class="button-collapse">
             <i class="fa fa-bars"></i>
-            <ul class="right hide-on med-and-down">
+            <ul class="right hide-on-med-and-down">
               <li>
                 <a href="index.html" class="active-link">Home</a>
               </li>
@@ -197,6 +197,47 @@
       </div>
     </div>
   </section>
+
+  <!-- Section: Testimonial -->
+  <section class="section section-testimonial grey lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="carousel carousel-slider center">
+            <div class="carousel-item" href='#one!'>
+              <h2>Testimonial 1</h2>
+              <p class="flow-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, unde, deserunt fugiat beatae officia incidunt rem modi ipsum nostrum sit ad obcaecati voluptates temporibus alias. Minima maxime similique doloremque velit.
+                <em>Jenny Doe From Microsystems</em>
+              </p>
+              <div class="carousel-fixed-item center hide-on-small-and-down">
+                <a href="#" class="btn grey ">Read More</a>
+              </div>
+            </div>
+
+            <div class="carousel-item" href='#two!'>
+              <h2>Testimonial 1</h2>
+              <p class="flow-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, unde, deserunt fugiat beatae officia incidunt rem modi ipsum nostrum sit ad obcaecati voluptates temporibus alias. Minima maxime similique doloremque velit.
+                <em>Mike Smith From Hedge INC</em>
+              </p>
+              <div class="carousel-fixed-item center hide-on-small-and-down">
+                <a href="#" class="btn grey ">Read More</a>
+              </div>
+            </div>
+
+            <div class="carousel-item" href='#three!'>
+              <h2>Testimonial 1</h2>
+              <p class="flow-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, unde, deserunt fugiat beatae officia incidunt rem modi ipsum nostrum sit ad obcaecati voluptates temporibus alias. Minima maxime similique doloremque velit.
+                <em>Mary Jane From TechSoft</em>
+              </p>
+              <div class="carousel-fixed-item center hide-on-small-and-down">
+                <a href="#" class="btn grey ">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -204,6 +245,12 @@
     $(document).ready(function () {
       // Custom JS & jQuery here
 
+      //Side Bar init
+      $('.button-collapse').sideNav();
+      //Carousel init
+      $('.carousel-slider').carousel({
+        fullWidth: true
+      });
     });
   </script>
 </body>
