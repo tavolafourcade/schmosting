@@ -61,13 +61,18 @@
 }
 
 .section-testimonial .carousel-min-height {
-  height: 450px !important;
+  height: 480px !important;
 }
 
 .section-testimonial img {
   width: 20% !important;
+  margin-top: 20px;
 }
 
+footer .name-developer {
+  text-decoration: none !important;
+  color: #f4f4f4 !important;
+}
 @media (max-width: 500px) {
   .section-developers,
   .section-podcast {
