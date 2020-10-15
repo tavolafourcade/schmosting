@@ -1,3 +1,7 @@
+/**********************/
+/******Index.html******/
+/**********************/
+
 .primary-overlay {
   background: rgba(112, 81, 176, 0.7);
   position: absolute;
@@ -78,4 +82,20 @@ footer .name-developer {
   .section-podcast {
     min-height: 240px;
   }
+}
+
+/**********************/
+/****Solutions.html****/
+/**********************/
+
+.main-header-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.main-header-inner .showcase {
+  padding-top: 50px;
 }
