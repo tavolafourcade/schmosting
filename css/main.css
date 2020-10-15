@@ -99,3 +99,7 @@ footer .name-developer {
 .main-header-inner .showcase {
   padding-top: 50px;
 }
+
+.tabs .indicator {
+  background-color: #6a1b9a !important;
+}
