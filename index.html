@@ -9,7 +9,7 @@
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/main.css" />
   <script src="https://kit.fontawesome.com/9e1a53f6e6.js" crossorigin="anonymous"></script>
-
+  
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Schmosting</title>
@@ -35,7 +35,7 @@
                 <a href="signup.html">Sign Up</a>
               </li>
               <li>
-                <a href="#" class="btn purple waves-effect waves-light">Login</a>
+                <a href="#login-modal" class="btn purple waves-effect waves-light modal-trigger">Login</a>
               </li>
               <li>
                 <a href="http://facebook.com">
@@ -268,6 +268,28 @@
       </div>
     </div>
   </footer>
+
+  <!-- Login Modal -->
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <h4>Account Login</h4>
+      <p>Login to access your account dashboard</p>
+      <form>
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close btn grey"> <i class="fa fa-sync"></i>  Reset Password</a>
+      <a href="#!" class="modal-action modal-close btn purple"> <i class="fa fa-lock"></i>  Login</a>
+    </div>
+  </div>
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -281,6 +303,8 @@
       $('.carousel-slider').carousel({
         fullWidth: true
       });
+
+      $('.modal').modal();
     });
   </script>
 </body>
