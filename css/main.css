@@ -103,3 +103,11 @@ footer .name-developer {
 .tabs .indicator {
   background-color: #6a1b9a !important;
 }
+
+/**********************/
+/******Signup.html*****/
+/**********************/
+.btn-extend {
+  display: block;
+  width: 100%;
+}
